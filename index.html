@@ -7,28 +7,49 @@
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
-      <header>
-         <h1 id="name">John Lester P. Arigo</h1>
-         <img src="lester.jpg" alt="Profile Picture" id="profile-img">
-         <p id="course-year">BSCS - 2 Year</p>
+      <header class="main-header">
+         <div class="header-content">
+            <h1 id="name">John Lester P. Arigo</h1>
+            <img src="lester.jpg" alt="Profile Picture" id="profile-img">
+            <p id="course-year">BSCS - 2 Year</p>
+         </div>
+         <section class="contact-info">
+            <p>Email: john.arigo@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+         </section>
          <button id="theme-toggle">Switch Theme</button>
       </header>
-      <section id="achievements">
-         <h2>Achievements/Certifications</h2>
-         <ul>
-            <li>ITS certification</li>
-            <li>1st year - 1st sem deans list</li>
-            <li>1st year - 3rd sem deans list</li>
-         </ul>
-      </section>
-      <section id="projects">
-         <h2>Previous Projects</h2>
-         <ul>
-            <li>MMCM Medicare - a desktop app for school clinic</li>
-            <li>Parking System - a desktop parking monitoring</li>
-            <li>todo list- a andriod app for todo list</li>
-         </ul>
-      </section>
+
+      <div class="main-content">
+         <section id="achievements" class="card">
+            <h2> Achievements/Certifications</h2>
+            <ul>
+               <li>ITS certification</li>
+               <li>1st year - 1st sem deans list</li>
+               <li>1st year - 3rd sem deans list</li>
+            </ul>
+         </section>
+
+         <section id="projects" class="card">
+            <h2> Previous Projects</h2>
+            <ul>
+               <li>MMCM Medicare - a desktop app for school clinic</li>
+               <li>Parking System - a desktop parking monitoring</li>
+               <li>todo list- a android app for todo list</li>
+            </ul>
+         </section>
+         
+         <section id="contact" class="card">
+            <h2> Contact</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+            <ul>
+               <li>**GitHub:** [Your GitHub Link]</li>
+               <li>**LinkedIn:** [Your LinkedIn Link]</li>
+               <li>**Personal Website:** [Your Website Link]</li>
+            </ul>
+         </section>
+      </div>
+
       <script src="script.js"></script>
    </body>
 </html>
