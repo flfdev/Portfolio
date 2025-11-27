@@ -1,20 +1,20 @@
-/* Base Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     min-height: 100vh;
     transition: background-color 0.4s, color 0.4s;
-    background-color: #f5f5f5; /* Light Theme Default */
-    color: #333; /* Dark text for light theme */
+    background-color: #f5f5f5;
+    color: #333;
 }
 
-/* Header Styles */
+
 .main-header {
     text-align: center;
     padding: 30px 20px;
     margin-bottom: 30px;
-    background-color: #e0e0e0; /* Light background for header */
+    background-color: #e0e0e0;
     border-bottom: 3px solid #ccc;
 }
 
@@ -58,14 +58,14 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-    margin-top: 15px; /* Added spacing */
+    margin-top: 15px; 
 }
 
 #theme-toggle:hover {
     background-color: #0056b3;
 }
 
-/* Main Content Layout (Flexbox) */
+
 .main-content {
     display: flex;
     flex-wrap: wrap;
@@ -76,13 +76,13 @@ body {
     margin: 0 auto;
 }
 
-/* Card Styles for Achievements, Projects, and Contact */
+
 .card {
     background-color: white;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    flex: 1 1 45%; /* Allows two cards per row on wider screens */
+    flex: 1 1 45%; 
     min-width: 300px;
 }
 
@@ -102,13 +102,13 @@ body {
     margin-bottom: 8px;
 }
 
-/* Specific styling for the Contact card list (optional: removes bullets for links) */
+
 #contact ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-/* Dark Theme Styles */
+
 body.dark {
     background-color: #121212;
     color: #f5f5f5;
