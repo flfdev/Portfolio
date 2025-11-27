@@ -1,4 +1,4 @@
-/* Base Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,18 +7,17 @@ body {
     transition: background-color 0.4s, color 0.4s;
 }
 
-/* Default Light Theme */
+
 body {
-    background-color: #f5f5f5; /* Light background */
-    color: #333; /* Dark text */
+    background-color: #f5f5f5; 
+    color: #333; 
 }
 
-/* Header Styling */
 .main-header {
     text-align: center;
     padding: 30px 20px;
     margin-bottom: 30px;
-    background-color: #e0e0e0; /* Slightly darker than body */
+    background-color: #e0e0e0; 
     border-bottom: 3px solid #ccc;
 }
 
@@ -29,7 +28,7 @@ body {
 #name {
     margin-bottom: 5px;
     font-size: 2.5em;
-    color: #0056b3; /* Primary accent color */
+    color: #0056b3;
 }
 
 #course-year {
@@ -53,7 +52,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Theme Toggle Button */
+
 #theme-toggle {
     padding: 10px 20px;
     cursor: pointer;
@@ -80,13 +79,13 @@ body {
     margin: 0 auto;
 }
 
-/* Card Styling for Sections */
+
 .card {
     background-color: white;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    flex: 1 1 45%; /* Flexible width, stacks on smaller screens */
+    flex: 1 1 45%; 
     min-width: 300px;
 }
 
@@ -106,7 +105,7 @@ body {
     margin-bottom: 8px;
 }
 
-/* Welcome Section Styling (New Feature) */
+
 .welcome-section {
     max-width: 800px;
     margin: 20px auto;
@@ -116,7 +115,7 @@ body {
     color: #444;
 }
 
-/* Dark Theme Specific Styles (Toggled by JS) */
+
 body.dark {
     background-color: #121212;
     color: #f5f5f5;
@@ -128,7 +127,7 @@ body.dark .main-header {
 }
 
 body.dark #name {
-    color: #8c8cff; /* Lighter accent color for dark mode */
+    color: #8c8cff; 
 }
 
 body.dark #course-year {
@@ -157,7 +156,7 @@ body.dark .welcome-section {
     color: #aaa;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .main-content {
         flex-direction: column;
