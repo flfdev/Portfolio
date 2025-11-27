@@ -1,23 +1,20 @@
-
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     min-height: 100vh;
     transition: background-color 0.4s, color 0.4s;
+    background-color: #f5f5f5; /* Light Theme Default */
+    color: #333; /* Dark text for light theme */
 }
 
-
-body {
-    background-color: #f5f5f5; 
-    color: #333; 
-}
-
+/* Header Styles */
 .main-header {
     text-align: center;
     padding: 30px 20px;
     margin-bottom: 30px;
-    background-color: #e0e0e0; 
+    background-color: #e0e0e0; /* Light background for header */
     border-bottom: 3px solid #ccc;
 }
 
@@ -52,7 +49,6 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-
 #theme-toggle {
     padding: 10px 20px;
     cursor: pointer;
@@ -62,13 +58,14 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
+    margin-top: 15px; /* Added spacing */
 }
 
 #theme-toggle:hover {
     background-color: #0056b3;
 }
 
-/* Main Content Layout */
+/* Main Content Layout (Flexbox) */
 .main-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,13 +76,13 @@ body {
     margin: 0 auto;
 }
 
-
+/* Card Styles for Achievements, Projects, and Contact */
 .card {
     background-color: white;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    flex: 1 1 45%; 
+    flex: 1 1 45%; /* Allows two cards per row on wider screens */
     min-width: 300px;
 }
 
@@ -105,17 +102,13 @@ body {
     margin-bottom: 8px;
 }
 
-
-.welcome-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    text-align: center;
-    font-style: italic;
-    color: #444;
+/* Specific styling for the Contact card list (optional: removes bullets for links) */
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-
+/* Dark Theme Styles */
 body.dark {
     background-color: #121212;
     color: #f5f5f5;
@@ -127,7 +120,7 @@ body.dark .main-header {
 }
 
 body.dark #name {
-    color: #8c8cff; 
+    color: #8c8cff;
 }
 
 body.dark #course-year {
@@ -150,10 +143,6 @@ body.dark .card {
 body.dark .card h2 {
     border-bottom: 2px solid #444;
     color: #8c8cff;
-}
-
-body.dark .welcome-section {
-    color: #aaa;
 }
 
 
