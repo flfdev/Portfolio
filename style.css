@@ -47,4 +47,8 @@ button{
     padding: 4px;
     width: 80px;
 }
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
 </style>
